@@ -1,14 +1,5 @@
 import Foundation
 
-public enum AuralinkError: Error {
-    case invalidURL
-    case network(Error)
-    case decoding(Error)
-    case server(statusCode: Int, data: Data?)
-    case cancelled
-    case unknown
-}
-
 public final class AuralinkClient {
     public struct Configuration {
         public var baseURL: URL?
