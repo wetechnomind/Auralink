@@ -1,8 +1,9 @@
-#  Auralink – The Modern Swift Networking Engine (v1.0.0)
+# Auralink – The Modern Swift Networking Engine (v1.0.0)
 
-[![Build Status](https://github.com/WeTechnoMind/Auralink/actions/workflows/ci.yml/badge.svg)](https://github.com/WeTechnoMind/Auralink/actions)
+![Auralink](https://img.shields.io/badge/Auralink-Networking%20Engine-red)
 [![Swift](https://img.shields.io/badge/Swift-5.7%2B-orange.svg)](https://swift.org)
 ![Platforms](https://img.shields.io/badge/Platforms-iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS-blue.svg)
+![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-orange?logo=swift)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)
 
@@ -11,21 +12,19 @@ Lightweight, fast, and beginner-friendly — it’s built to simplify async/awai
 
 ---
 
-##  Table of Contents
-- [ Features](#-features)
-- [ Installation](#-installation)
-- [ Quick Start](#-quick-start)
-- [ Architecture Overview](#-architecture-overview)
-- [ Advanced Examples](#-advanced-examples)
-- [ Testing & CI](#-testing--ci)
-- [ Documentation](#-documentation)
-- [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Download ZIP](#️-download-zip)
-
+## Table of Contents
+- [Features](#-features)
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [Advanced Examples](#-advanced-examples)
+- [Testing & CI](#-testing--ci)
+- [Contributing](#-contributing)
+- [Author](#-author)
+- [License](#-license)
+  
 ---
 
-##  Features
+## Features
 
 | Category | Description |
 |-----------|--------------|
@@ -33,7 +32,7 @@ Lightweight, fast, and beginner-friendly — it’s built to simplify async/awai
 | **Dependency Size** | Lightweight – only uses Foundation |
 | **Performance** | Optimized for speed and low memory usage |
 | **Request Handling** | SmartRequest engine with automatic configuration |
-| **Response Decoding** |  Auto-decodes any Codable model (nested objects supported) |
+| **Response Decoding** | Auto-decodes any Codable model (nested objects supported) |
 | **Error Handling** | Detailed smart error system with hints and suggestions |
 | **Retry Logic** | Automatic retry with exponential backoff |
 | **Caching** | Smart memory + disk caching with TTL |
@@ -91,12 +90,6 @@ func fetchPost() async {
         print("Error:", error)
     }
 }
-```
-
----
-
-## Architecture Overview
-
 ```
 
 ## Advanced Examples
@@ -162,33 +155,11 @@ GitHub Actions CI (`.github/workflows/ci.yml`) automatically builds and tests on
 
 ---
 
-## Documentation
-
-Build local documentation:
-```bash
-swift package generate-documentation --target Auralink --output-path ./docs
-```
-Or open `Docs/Auralink.docc` in Xcode.
-
----
-
-## Contributing
+##  Contributing
 
 Contributions are welcome!  
-Please read the `CONTRIBUTING.md` before submitting pull requests.
 
-Checklist:
-- Run `swift build` and `swift test`
-- Add tests for new features
-- Update `CHANGELOG.md`
-- Follow naming convention (`Auralink*` prefix)
-
----
-
-## License
-
-Auralink is available under the MIT License.  
-See the LICENSE file for details.
+Before contributing to Auralink, please read the instructions detailed in our [contribution guide](CONTRIBUTING.md).
 
 ---
 
@@ -199,7 +170,10 @@ Crafted with ❤️ in Swift — lightweight, fast, and ready for modern apps.
 
 ---
 
-## Download ZIP
+## License
 
-You can download the latest version directly from GitHub:  
-- [Download Auralink v1.0.0 (ZIP)](https://github.com/WeTechnoMind/Auralink/archive/refs/tags/v1.0.0.zip)
+Auralink is released under the MIT license. See [LICENSE](LICENSE) for details.
+
+
+
+
